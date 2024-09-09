@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendiendo CSS</title>
+    <link rel="stylesheet" href="Estilos/EstilosEjercicio1.css">
+</head>
+<body>
+    <header>  
+        <h1>APRENDIENDO ESTILOS CON CSS</h1>
+        <img id="Img1" src="Recursos/HombreCompu1.png" alt="HombreCompu1" >
+    </header>
+<br><br>
+    <section>
+        <article>
+            <div class="Contenedor1">
+                <fieldset>
+                    <legend>Estilos de fuentes</legend>
+                        <img src="Recursos/Fonts1.png" alt="Fonts2">
+                        <h3>Cuando hablamos de "fuente" debemos pensar inmediatamente en la tipografía; es decir, el tipo de letra que tendrá nuestra página.</h3>
+                </fieldset>
+                <fieldset>
+                    <legend>Estilos de color</legend>
+                    <img src="Recursos/Colors2.png" alt="Colors2">
+                    <h3>Jugar con el color hace que nuestra página tome vida.
+                        <br>Aquí un concepto fundamental es el contraste.
+                        <br>También se debe hablar del degradado. </h3>
+                </fieldset> 
+            </div>
+        </article>
+    <hr>
+        <article>
+            <h2>Estilos de fuentes</h2>
+            <p>Cuando hablamos de estilos de fuentes debemos pensar en la forma de las letras, su tamaño, estilo, grosor y demás características que las hacen únicas.
+                <br>Veamos algunas características que debemos conocer de las fuentes.
+            </p>
+            <h2 id="Sub2">Propiedades en CSS</h2>
+            <table>
+                <tr>
+                    <thead>
+                        <th>Propiedad</th>
+                        <th>Valor</th>
+                        <th>Significado</th>
+                    </thead>
+                </tr>
+                <tr>
+                    <tbody>
+                        <td>1. font-family</td>
+                        <td>fontlist</td>
+                        <td>Permite ver el nombre de la fuente o una lista de fuentes disponibles</td>
+                    </tbody>
+                </tr>
+                <tr>
+                    <tbody>
+                        <td>2. font-size</td>
+                        <td>size</td>
+                        <td>Nos permite asignar el tamaño de la fuente</td>
+                    </tbody>
+                </tr>
+                <tr>
+                    <tbody>
+                        <td>3. font-style</td>
+                        <td>normal | italic | oblique</td>
+                        <td>Indica el estilo de la fuente</td>
+                    </tbody>
+                </tr>
+                <tr>
+                    <tbody>
+                        <td>4. font-weight</td>
+                        <td>weight</td>
+                        <td>Asignamos el peso (grosor) de la fuente</td>
+                    </tbody>
+                </tr>
+            </table>
+            <h3 id="Sub2">1. FONT-FAMILIY</h3>
+            <table>
+                <tr>
+                    <thead>
+                        <th>Fuente</th>
+                        <th>Significado</th>
+                        <th>Ejemplo</th>
+                    </thead>
+                </tr>
+                <tr>
+                    <tbody>
+                        <td>serif</td>
+                        <td>Tipografía con serifa</td>
+                        <td>Times New Roman, Georgia...</td>
+                    </tbody>
+                </tr>
+                <tr>
+                    <tbody>
+                        <td>sans-serif</td>
+                        <td>Tipografía sin serifa</td>
+                        <td>Arial, Verdana, Tahoma...</td>
+                    </tbody>
+                </tr>
+                <tr>
+                    <tbody>
+                        <td>cursive</td>
+                        <td>Tipografía en cursiva</td>
+                        <td>Sanvito, Cursiva...</td>
+                    </tbody>
+                </tr>
+                <tr>
+                    <tbody>
+                        <td>fantasy</td>
+                        <td>Tipografía decorativa</td>
+                        <td>Critter, Cottonwood...</td>
+                    </tbody>
+                </tr>
+                <tr>
+                    <tbody>
+                        <td>monospace</td>
+                        <td>Tipografía monoespaciada</td>
+                        <td>Courier, Courier New...</td>
+                    </tbody>
+                </tr>
+            </table>
+            <h3 id="Sub2">2. FONT-SIZE</h3>
+            <table>
+                <tr>
+                    <thead>
+                        <th>Tipo de valor</th>
+                        <th>Valor</th>
+                        <th>Tipo de medida</th>
+                    </thead>
+                </tr>
+                <tr>
+                    <tbody>
+                        <td>ABSSIZE</td>
+                        <td>xx-small | x-small | small | medium | large | x-large | xx-large</td>
+                        <td>Tamaño absoluto (predefinido)</td>
+                    </tbody>
+                </tr>
+                <tr>
+                    <tbody>
+                        <td>RELSIZE</td>
+                        <td>smaller | larger</td>
+                        <td>Tamaño relativo (más pequeño/más grande)</td>
+                    </tbody>
+                </tr>
+                <tr>
+                    <tbody>
+                        <td>SIZE</td>
+                        <td>tamaño</td>
+                        <td>Tamaño específico (tamaño exacto)</td>
+                    </tbody>
+                </tr>
+            </table>
+            <h3 id="Sub2">3. FONT-STYLE</h3>
+            <table>
+                <tr>
+                    <thead>
+                        <th>Propiedad</th>
+                        <th>Valor</th>
+                        <th>Significado</th>
+                    </thead>
+                </tr>
+                <tr>
+                    <tbody>
+                        <td>font-style</td>
+                        <td>normal</td>
+                        <td>Estilo normal. Sin cambios aparentes. Valor por defecto</td>
+                    </tbody>
+                </tr>
+                <tr>
+                    <tbody>
+                        <td></td>
+                        <td>italic</td>
+                        <td>Cursiva. Estilo caracterizado por una ligera inclinación de las letras hacia la derecha</td>
+                    </tbody>
+                </tr>
+                <tr>
+                    <tbody>
+                        <td></td>
+                        <td>oblique</td>
+                        <td>Oblícua. Idem al anterior, salvo que esta inclinación se realiza de forma artificial</td>
+                    </tbody>
+                </tr>
+                <tr>
+                    <tbody>
+                        <td></td>
+                        <td>oblique (ANGLE)</td>
+                        <td>Idem al anterior, pero indicando los grados de inclinación de -90deg a 90deg. Por defecto, 14deg</td>
+                    </tbody>
+                </tr>
+            </table>
+            <h3 id="Sub2">4. FONT-WEITH</h3>
+            <table>
+                <tr>
+                    <thead>
+                        <th>Propiedad</th>
+                        <th>Valor</th>
+                        <th>Significado</th>
+                    </thead>
+                </tr>
+                <tr>
+                    <!-- <td rowspan="2" colspan="2">Celda combinada (2 filas, 2 columnas)</td> -->
+                    <tbody>
+                        <td>font-weight</td>
+                        <td>normal (400) | bold (700)</td>
+                        <td>Peso absoluto (predefinido). El valor por defecto es normal</td>
+                    </tbody>
+                </tr>
+                <tr>
+                    <tbody>
+                        <td>font-weight</td>
+                        <td>bolder | lighter</td>
+                        <td>Peso relativo (más pequeño o más grande)</td>
+                    </tbody>
+                </tr>
+                <tr>
+                    <tbody>
+                        <td>font-weight</td>
+                        <td>peso</td>
+                        <td>Peso específico (número con el peso concreto)</td>
+                    </tbody>
+                </tr>
+            </table>
+        </article>
+        <article>
+            <p>Para conocer mucho más respecto a los estilos de fuentes en CSS, visita la página
+                <a href="https://lenguajecss.com/css/">https://lenguajecss.com/css/</a></p>
+        </article>
+    <hr>
+        <article>
+            <h2 id="H2">Estilos de colores</h2>
+            <p>El color es capaz de daro vida o hacer morir un diseño. Debeos aprener de la psicología del color y cómo expresar cada detalle de nuestra página.
+                <br>Qué tal leer algo respecto a los colores.
+            </p>
+            
+    </section>
+    <hr>
+    <footer>
+        <p id="P2">Es increíble cuánto se puede aprender</p>
+        <img id="Img2" src="Recursos/HombreCompu3.png" alt="ImgFooter">
+    </footer>
+</body>
+</html>

@@ -1,0 +1,104 @@
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient(to right,#004aad, #cb6ce6);
+    height: 175px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+h1{
+    font-family: 'Segoe UI';
+    font-size: 60px;
+    color: antiquewhite;
+}
+
+h2{
+    color: #004aad;
+    font-family: ROG fonts;
+    font-size: 50px;
+    text-align: center;
+}
+
+#H2{
+    color: #cb6ce6;
+    font-family: STENCIL;
+    font-size: 50px;
+    text-align: center;
+}
+
+h3{
+    color: #004aad;
+    font-size: 20px;
+    text-align: center;
+}
+
+p{
+    color: #091A55;
+    font-size: 21px;
+}
+
+#Img1{
+    width: 290px;
+}
+
+.Contenedor1{
+    display: flex;
+    justify-content: space-around;
+}
+
+fieldset{
+    font-family: 'Tahoma', 'sans-serif';
+    font-size: 50px;
+    font-weight: bold;
+    border-radius: 20px;
+    border-color: #cb6ce6;
+    color: #FF5875;
+    text-align: center;
+    width: 500px;
+}
+
+#Sub2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: linear-gradient(to right,#004aad, #cb6ce6);
+    color: antiquewhite;
+    border-radius: 20px;
+}
+
+table{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: #5F5AC8;
+    border-radius: 5px;
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 ;
+}
+
+th, td{
+    border-bottom: 2px solid #9E64DA;
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    padding-top: 0%;
+    background-image: linear-gradient(to right,#cb6ce6, #004aad);
+    border-radius: 20px;
+}
+
+#P2{
+    font-family: 'Segoe UI';
+    font-size: 60px;
+    color: antiquewhite;
+}
+
+#Img2{
+    width: 250px;
+}
+

@@ -1,0 +1,23 @@
+p{
+    color: hsl(347, 100%, 50%);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1{
+    color: rgb(55, 57, 163);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+#Prueba1{
+    color: blueviolet;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#Imagen1{
+    border-radius: 10px;
+}
+
+
+

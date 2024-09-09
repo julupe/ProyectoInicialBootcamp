@@ -1,0 +1,64 @@
+/*Estilo para menú de navegación*/
+
+.navbar{
+    display: flex; /*Distribuye el contenido de manera horizontal*/
+    justify-content: space-between; /*Espacio entre los elementos a lo largo del eje principal*/
+    align-items: center; /*Alinia los elementos verticalmente*/
+    padding: 10px; /*Espacio interno entre los elementoss*/
+    background-color: #363432;
+    border-radius: 15px;
+}
+
+.logo a{
+    color: #D6BA90;
+    text-decoration: none; /*Subrayado del enlace del logo*/
+    font-size: 24px;
+    gap: 15px; /*Espacio entre los enlaces*/
+}
+
+.logo img{
+    height: 120px;
+    border-radius: 80px;
+}
+
+.nav-links{
+    display: flex;
+    list-style: none; /*Elimina las viñetas de las listas*/
+    color: #D6BA90;
+    font-size: 20px;
+}
+
+.nav-links li a{
+    color: #D6BA90;
+    list-style: none; /*Quita los puntos de las listas*/
+    padding: 8px 25px; /*Espacio entre los elementos*/
+    text-decoration: none;
+}
+
+.dropdown{
+    position: relative; /*Posiciona el contenedor del dropdown; es decir, deja todo dentro del principal*/
+}
+
+.dropdown-content{
+    display: none; /*Oculta el contenido del dropdown por defecto*/
+    position: absolute; /*Posiciona el contenido del dropdown de forma absoluta respecto a su contenedor*/
+    background-color: #9DA65D;
+    min-width: 120px; /*Ancho mínimo del contenido del dropdown*/
+    box-shadow: 0px 8px 16px rgba(139, 140, 136, 1); /* 0px desplaza horizntal; 8px desplaza vertical, 16px desenfoque o difuminado. Para dar profundidad (sombra alrededor) Debe ser rgba*/
+    border-radius: 15px;
+    font-size: 15px;
+}
+
+.dropdown-content a{
+    display: block;
+    padding: 10px;
+}
+
+.dropdown:hover .dropdown-content{ /*Muestra el cursor cuando se pasa el cursor por encima del elemento*/
+    display: block;
+}
+
+.nav-links li a:hover {
+    background-color: #6C733D;
+    border-radius: 4px;
+}
